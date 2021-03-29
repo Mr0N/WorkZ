@@ -9,9 +9,10 @@ namespace WorkZ
     {
         static void Main(string[] args)
         {
-            
-            HelloWorldGenerator.HelloWorldGenerated.SayHello(); // calls Console.WriteLine("Hello World!") and then prints out syntax trees
-           
+            HelloWorldGenerated.HelloWorld.SayHello();
+      
+            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }
