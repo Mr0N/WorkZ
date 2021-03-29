@@ -10,7 +10,7 @@ namespace WorkZ
         static void Main(string[] args)
         {
             HelloWorldGenerated.HelloWorld.SayHello();
-      
+            HelloWorldGenerated.HelloWorld.Create();
             Console.WriteLine();
             Console.ReadKey();
         }
